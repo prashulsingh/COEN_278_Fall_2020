@@ -1,0 +1,47 @@
+##########################################PROBLEM 1 ##########################################
+{"Facebook"=>1, "and"=>2, "its"=>1, "founder"=>1, "must"=>1, "release"=>1, "documents"=>1, "electronic"=>1, "correspondence"=>1, "to"=>1, "a"=>3, "defense"=>1, "lawyer"=>1, "whose"=>1, "client"=>1, "has"=>1, "fled"=>1, "from"=>1, "criminal"=>1, "charges"=>1, "that"=>1, "he"=>1, "falsely"=>1, "claimed"=>1, "majority"=>1, "ownership"=>1, "in"=>1, "the"=>1, "social"=>1, "media"=>1, "giant"=>1, "federal"=>1, "judge"=>1, "said"=>1, "Friday"=>1}
+{"three"=>3}
+
+##########################################PROBLEM 2 ##########################################
+All Students
+FirstName       LastName        Phone Number
+John            LastnameJohn    123456789
+Ken             Lastnameken     456734244
+Marisa          lastnamemarisa  443234567
+Ken             Kenlastname     456734244
+
+
+
+Students with first Name as ->Ken
+FirstName       LastName        Phone Number
+Ken             Lastnameken     456734244
+Ken             Kenlastname     456734244
+
+
+Student by phone number 456734244
+FirstName       LastName        Phone Number
+Ken             Lastnameken     456734244
+Ken             Kenlastname     456734244
+
+##########################################PROBLEM 3 ##########################################
+["i", "love", "you", "but", "do", "me"]
+[0, 1, 2, 3, 4, 2, 1, 5]
+i love you but do you love me
+
+##########################################PROBLEM 4 ##########################################
+.merge
+{"a"=>100, "b"=>254, "c"=>300}
+{"a"=>100, "b"=>54, "c"=>300}
+{"a"=>100, "b"=>200}
+
+.merge!
+{"a"=>100, "b"=>54, "c"=>300}
+{"a"=>100, "b"=>54, "c"=>300}
+
+##########################################PROBLEM 5 ##########################################
+    <h3>Tasks</h3>
+    <div id='tasks'>
+    <div class='links'>
+    </div>
+    </div>
+    <%= f.submit 'Save' >
